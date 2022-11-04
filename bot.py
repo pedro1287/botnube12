@@ -165,7 +165,7 @@ def processtoken(update,token):
 #Dowland youtube videos from txt list
 def Youtubetxt(update,context):
     
-    print("/youtubetxt fue utilizado por @"+str(update.message.chat.username))
+    print("/youtubetxt fue utilizado por @JAGB2021+str(update.message.chat.username))
 
     if(EstasPermitiado(update=update)):
 
@@ -271,7 +271,7 @@ def TestNube(context):
 CancelTrace = 56
 def Cancelartareas(update,context):
 
-    print("/cancel fue utilizado por  @"+str(update.message.chat.username))
+    print("/cancel fue utilizado por  @JAGB2021+str(update.message.chat.username))
 
     if(EstasPermitiado(update=update)):
 
@@ -366,7 +366,7 @@ def main():
             token = JAGB2021
             
 
-        if(name == "cracbotnub"):
+        if(name == "Codebot"):
             
            token=  Cracsito
 

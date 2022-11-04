@@ -257,9 +257,9 @@ def TestNube(context):
  
          tokelonginer = er.find('input',{'name':'logintoken'})['value']
 
-         context.bot.send_message(chat_id='-1001791545677',text="✅La Nube esta  ready✅")
+         context.bot.send_message(chat_id='-668690046',text="✅La Nube esta  ready✅")
        except:
-            context.bot.send_message(chat_id='-1001791545677',text="🛑La Nube esta  fallando🛑 ")
+            context.bot.send_message(chat_id='-668690046',text="🛑La Nube esta  fallando🛑 ")
 
        time.sleep(1800)
       
@@ -361,9 +361,9 @@ def main():
         name = os.environ['HEROKU_APP_NAME']
         if(name == "group"):
             token = groupcorre
-        if(name == "hitler"):
+        if(name == "JAGB2021"):
 
-            token = Hitler
+            token = JAGB2021
             
 
         if(name == "cracbotnub"):
